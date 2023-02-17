@@ -1,0 +1,55 @@
+@use "variables" as v;
+
+html {
+  box-sizing: border-box;
+  font-size: v.$fs-body;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-family: v.$ff-body;
+  font-weight: v.$fw-medium;
+  color: v.$neutral-gray;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+  color: v.$neutral-blue;
+  font-weight: v.$fw-bold;
+  transition: all 0.3s ease;
+}
+
+a:hover,
+a:focus,
+a:visited:hover,
+a:visited:focus {
+  text-decoration: underline;
+  color: v.$primary-green;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
