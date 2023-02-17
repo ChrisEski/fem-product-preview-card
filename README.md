@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github](https://github.com/ChrisEski/fem-product-preview-card)
+- Live Site URL: [https://fem-product-preview-card-chriseski.netlify.app/](https://fem-product-preview-card-chriseski.netlify.app/)
 
 ## My process
 
